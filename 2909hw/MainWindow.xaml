@@ -1,0 +1,23 @@
+﻿<Window x:Class="_2909hw.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2909hw"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="450" MinWidth="500"
+        WindowState="Maximized">
+    <Grid>
+        <TabControl Name ="TabControl">
+            <TabItem Name="Tab1">
+                <Image Source="./images/Ницше.jpg" Stretch="Uniform"/>
+            </TabItem>
+            <TabItem Name="Tab2">
+                <Image Source="./images/Гнев и сожаление.jpg" Stretch="Uniform"/>
+            </TabItem>
+            <TabItem Name="Tab3">
+                <Image Source="./images/Понедельник.jpg" Stretch="Uniform"/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

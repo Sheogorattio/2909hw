@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>_2909hw</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Гнев и сожаление.jpg" />
+    <None Remove="Images\Ницше.jpg" />
+    <None Remove="Images\Понедельник.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Гнев и сожаление.jpg" />
+    <Resource Include="Images\Ницше.jpg" />
+    <Resource Include="Images\Понедельник.jpg" />
+  </ItemGroup>
+
+</Project>
